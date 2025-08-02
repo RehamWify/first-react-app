@@ -3,7 +3,7 @@ import Style from './Portfolio.module.css'
 import port1 from './../../assets/images/imgi_1_poert1.png'
 import port2 from './../../assets/images/imgi_2_port2.png'
 import port3 from './../../assets/images/imgi_3_port3.png'
-import Modal from '../modal/Modal'
+import Modal from '../Modal/Modal'
 import Card from '../Card/Card'
 // import Backdrop from '../Backdrop/Backdrop'
 
