@@ -1,0 +1,38 @@
+/* start home */
+.section{
+    background-color: #1ABC9C;
+}
+
+.star{
+    position: relative;
+}
+
+.star::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    background-color: #fff;
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+}
+
+.star::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 4px;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}

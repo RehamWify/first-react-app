@@ -1,0 +1,76 @@
+.section{
+    background-color: #fff;
+}
+
+.title{
+    color: #2C3E50;
+}
+
+.star{
+    position: relative;
+    color: #2C3E50;
+}
+
+.star::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    background-color: #2C3E50;
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+}
+
+.star::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 4px;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2C3E50;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.formBox {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formBox input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.formBox button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content;
+}
+
+.formBox button:hover {
+    background-color: #16a085;
+    color: #fff;
+}
+
